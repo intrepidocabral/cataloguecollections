@@ -1,0 +1,79 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+# lib
+lib64
+include
+
+# Installer logs
+pip-log.txt
+npm-debug.log
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Databases
+*.sqlite
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+.settings
+.idea
+
+.coveralls.yml
+
+# Virtualenvs
+*env
+*enviroment
+
+# OS Temp Files
+.DS_Store
+
+# Local configuration
+settings_local.py
+
+/static/css/main.css
+/static/css/main-admin.css
+/themes/*/static/css/main.css
+/themes/*/static/css/main-admin.css
+/.cache
+/node_modules
+/themes/default/templates/version.txt
+bower_components/
+
+# Used to custom themes cloned there
+/themes/themes_custom
+
+# Vagrant
+.vagrant
+
+# Source Map Less
+*.css.map
+
+*.psqlc
+*.log
+*.log.*
+site/
+/static/
+
